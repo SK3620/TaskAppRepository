@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8334F31C2893AC2C004BB61C /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8334F31B2893AC2C004BB61C /* Task.swift */; };
 		839D9359289242B0000ED910 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839D9358289242B0000ED910 /* AppDelegate.swift */; };
 		839D935B289242B0000ED910 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839D935A289242B0000ED910 /* SceneDelegate.swift */; };
 		839D935D289242B0000ED910 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839D935C289242B0000ED910 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		6632B0043ABD90F53C7CBC3E /* Pods-taskapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taskapp.release.xcconfig"; path = "Target Support Files/Pods-taskapp/Pods-taskapp.release.xcconfig"; sourceTree = "<group>"; };
+		8334F31B2893AC2C004BB61C /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		839D9355289242B0000ED910 /* taskapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = taskapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		839D9358289242B0000ED910 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		839D935A289242B0000ED910 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,13 +52,13 @@
 				D3D4C5D54BF7BC4DE59A33F2 /* Pods-taskapp.debug.xcconfig */,
 				6632B0043ABD90F53C7CBC3E /* Pods-taskapp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		839D934C289242B0000ED910 = {
 			isa = PBXGroup;
 			children = (
+				8334F31B2893AC2C004BB61C /* Task.swift */,
 				839D9357289242B0000ED910 /* taskapp */,
 				839D9356289242B0000ED910 /* Products */,
 				7B0F32F4973698D82362E21D /* Pods */,
@@ -212,6 +214,7 @@
 			files = (
 				839D935D289242B0000ED910 /* ViewController.swift in Sources */,
 				839D9359289242B0000ED910 /* AppDelegate.swift in Sources */,
+				8334F31C2893AC2C004BB61C /* Task.swift in Sources */,
 				839D935B289242B0000ED910 /* SceneDelegate.swift in Sources */,
 				839D936D28924B90000ED910 /* InputViewController.swift in Sources */,
 			);
