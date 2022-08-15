@@ -58,7 +58,10 @@ class InputViewController: UIViewController {
             
         }
         
+        setNotification(task: task)
+        
         super.viewWillDisappear(animated)
+    }
 
         func setNotification(task: Task){
 //            UNMutableNotificationContentインスタンスを使って通知内容設定
@@ -128,7 +131,7 @@ class InputViewController: UIViewController {
     }
     */
 
-}
+
 
 
 //            var user = [() -> String]()
